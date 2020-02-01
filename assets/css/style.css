@@ -3,15 +3,12 @@ h1 {
     
 }
 
+/*Background Image and Font for overall page*/
 body {
+    margin: 0;
+    background-image: url(../images/background-image.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-
-}
-
-/*Background Image*/
-.background {
-    background-image: url(../images/background-image.png);
 }
 
 /*Header Tags*/
@@ -80,6 +77,10 @@ li {
     padding-left: 20px;
     width: 1000px;
     margin: 0 auto;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    
 }
 
 
@@ -88,7 +89,7 @@ li {
 
 
 
-
+/*Image design*/
 #bio-image {
     width: 225px;
     height: 275px;
