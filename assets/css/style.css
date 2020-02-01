@@ -5,6 +5,8 @@ h1 {
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+
 }
 
 /*Background Image*/
@@ -12,9 +14,65 @@ body {
     background-image: url(../images/background-image.png);
 }
 
+/*Header Tags*/
+
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 220px;
+    height: 88px;
+    background-color: #ffffff;
+    padding-bottom: 0;
+    border-style: none none solid;
+    border-color: #cccccc;
+}
+
+li {
+    display: inline;    
+}
+
+#main-name {
+    width: 150px;
+    background: #4aaaa5;
+    color: #ffffff;
+    line-height: 150%;
+    padding: 20px 20px;
+    margin: 0 175px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+#main-about,
+#main-portfolio,
+#main-contact,
+#dividers {   
+    float: right;
+    margin: 0;
+    padding: 32px 8px ;
+    font-size: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
 /*Main Section after ABout Me*/
+
+#about-me{
+    color: #4aaaa5;
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    border-style: none none solid;
+    border-color: #cccccc;
+}
+
 .sectionform{
-    border: 1px lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
     background-color: #ffffff;
     padding-top: 20px;
     padding-right: 20px;
@@ -24,35 +82,35 @@ body {
     margin: 0 auto;
 }
 
-/*Header Tags*/
-#main-about,
-#main-portfolio,
-#main-contact {
-    float: left;
-}
 
-.mainname {
-    width: 150px;
-    background: #4aaaa5;
-    color: #ffffff;
-    line-height: 150%;
-    padding: 20px;
-    margin: 0 175px;
-   }
+
+
 
 
 
 
 #bio-image {
-    width: 200px;
-    height: 250px;
+    width: 225px;
+    height: 275px;
 }
+
+.personal-para{
+    width:75%;
+    float: right;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+
 
 
 .content {
     min-height: calc(100vh - 70px);
     padding: 40px 40px 0 40px;
   }
+
   .footer {
     height: 50px;
+    color: #666666;
+    text-align: center;
   }
