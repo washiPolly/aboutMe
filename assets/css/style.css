@@ -27,7 +27,6 @@ body {
     padding: 0; 
     position: relative;
     top: 0;
-    width: 80%;
     width: 1000px;
     margin: auto;
 }
@@ -81,12 +80,14 @@ li {
     border-color: #cccccc;
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
-    width: 955px;
+    width: 960px;
     margin: 0 auto;
     margin-top: 40px;
     font-size: 18px;
     line-height: 30px;
-    
+    position: relative;
+    top: 90px;
+
 }
 
 
@@ -147,15 +148,21 @@ li {
   }
 
   .footer {
+    position: absolute;
+    bottom: 0;
     margin: 0;
-    height: 150px;
-    color: #666666;
+    vertical-align: bottom;
+    color: #cccccc;
+    background: #666666;
     text-align: center;
     font-size: 12px;
-    border-style: none none solid; 
-    border-size: 5px;
+    border-style: Solid none none none; 
+    border-width: 8px;
     border-color: #4aaaa5;
-  }
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
 
   .clearfix::after{
     content: "";
