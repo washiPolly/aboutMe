@@ -164,6 +164,27 @@ li {
     padding: 15px;
 }
 
+/* Portfolio image buttons */
+.portfolioButtons {
+    position: relative;
+    left: -220px;
+    bottom: 35px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hangman{
+    padding: 10px 65.3px;
+}
+#rpggame{
+    padding: 10px 59px;
+}
 
 .footer{
     position: fixed;
