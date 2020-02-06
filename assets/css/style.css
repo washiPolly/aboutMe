@@ -172,13 +172,14 @@ li a {
     height: 180px;
     width: 200px;
     padding: 15px;
+    /* float: left; */
 }
 
-/* Portfolio image buttons */
-.portfolioButtons {
+/* Portfolio label links */
+.portfolioLabels {
     position: relative;
     left: -220px;
-    bottom: 35px;
+    bottom: 45px;
     background-color: #4aaaa5;
     border: none;
     color: white;
@@ -186,15 +187,11 @@ li a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    cursor: pointer;
+    padding: 10px;
+    width: 180px;
 }
 
-#hangman{
-    padding: 10px 65.3px;
-}
-#rpggame{
-    padding: 10px 59px;
-}
+
 
 .footer{
     position: fixed;
