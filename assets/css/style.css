@@ -155,6 +155,7 @@ li a {
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
     width: 960px;
+    height: 700px;
     font-size: 18px;
     line-height: 30px;
     position: relative;
@@ -169,29 +170,41 @@ li a {
 #img-rpg,
 #img-rutgers,
 #img-trivia{
+    position: relative;
+    float: left;
     height: 180px;
     width: 200px;
     padding: 15px;
-    /* float: left; */
+    
 }
 
 /* Portfolio label links */
-.portfolioLabels {
+.labels{
     position: relative;
-    left: -220px;
-    bottom: 45px;
-    background-color: #4aaaa5;
+    top: -75px;
+    left: 15px; 
+    width: 100%
+    height: 100px;
+    text-align: center;
     border: none;
     color: white;
-    text-align: center;
+    background-color: #4aaaa5;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     padding: 10px;
     width: 180px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  }
+ 
+
+div.relative{
+    float:left;
 }
 
-
+div.relative2{
+    float:left;
+}
 
 .footer{
     position: fixed;
