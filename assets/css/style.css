@@ -219,6 +219,7 @@ div.relative{
     padding-bottom: 5px;
 }
 
+/* didn't need to use since height of porfolio images wasn't too tall
 .footer-portfolio{
     position: relative;
     bottom: -25px;
@@ -233,7 +234,7 @@ div.relative{
     height: 25px; 
     padding-top: 40px;
     padding-bottom: 5px;
-}
+} */
 
 .push{
     height: 100px;
